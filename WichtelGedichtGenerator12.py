@@ -13,7 +13,7 @@ st.title("EDI WichtelGedichtGenerator 20230924")
 
 # Get user input for the person's information
 user_input = st.text_input("Geben Sie den Namen und die Schlüsselwörter für die Person ein (kommagetrennt):")
-st.text("Beispiel: James Bond, Geheimagent, bewaffnet, elegant, Frauenschwarm, kein Kassenpatient")
+st.text("Beispiel: James Bond, Geheimagent, kein Kassenpatient, elegant, Frauenschwarm")
 
 # Use a button to trigger execution
 generate_button = st.button("Losdichten!")
