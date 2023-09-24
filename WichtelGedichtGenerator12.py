@@ -9,8 +9,8 @@ from langchain.llms import OpenAIChat
 os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 
 # Create a Streamlit app
-st.title("EDI WichtelGedichtGenerator 20230924")
 st.image('https://d8wyob5mxqc1u.cloudfront.net/Allgemein/RaimundBauer180pxMagenta.png', caption='Image Caption', use_column_width=False)
+st.title("EDI WichtelGedichtGenerator 20230924")
 
 # Get user input for the person's information
 user_input = st.text_input("Geben Sie den Namen und die Schlüsselwörter für die Person ein (kommagetrennt):")
