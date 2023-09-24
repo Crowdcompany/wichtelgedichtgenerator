@@ -6,7 +6,7 @@ from langchain.llms import OpenAIChat
 
 
 # Set the API keys
-OPENAI_API_KEY==os.getenv('OPENAI_API_KEY')
+os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 
 # Create a Streamlit app
 st.title("EDI WichtelGedichtGenerator 20230924")
