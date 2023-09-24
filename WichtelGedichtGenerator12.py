@@ -3,7 +3,7 @@
 import os
 import streamlit as st
 from langchain.llms import OpenAIChat
-import config.py
+
 
 # Set the API keys
 OPENAI_API_KEY==os.getenv('OPENAI_API_KEY')
