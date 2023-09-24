@@ -40,6 +40,6 @@ if generate_button and user_input:
     # Display the response
     st.subheader("Da, hat die übliche WichtelGedicht-Qualität:")
     st.write(response)
-    st.text("PS: Der EDI-Pokal gehört in die Technikstraße")
+    
     
 
