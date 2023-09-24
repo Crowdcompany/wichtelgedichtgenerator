@@ -9,7 +9,8 @@ from langchain.llms import OpenAIChat
 os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 
 # Create a Streamlit app
-st.title("Wichtel Gedicht Generator (in authentisch schlechter Qualität)")
+st.title("Wichtel Gedicht Generator")
+st.text(" (in authentisch schlechter Qualität)")
 
 # Get user input for the person's information
 user_input = st.text_input("Geben Sie den Namen und die Schlüsselwörter für die Person ein (kommagetrennt):")
