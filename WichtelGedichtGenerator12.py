@@ -9,7 +9,6 @@ from langchain.llms import OpenAIChat
 os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 
 # Create a Streamlit app
-st.image('https://d8wyob5mxqc1u.cloudfront.net/Allgemein/RaimundBauer180pxMagenta.png', caption='Image Caption', use_column_width=False)
 st.title("EDI WichtelGedichtGenerator 20230924")
 
 # Get user input for the person's information
@@ -40,3 +39,5 @@ if generate_button and user_input:
     st.subheader("Da, hat die übliche WichtelGedicht-Qualität:")
     st.write(response)
     st.text("PS: Der EDI-Pokal gehört in die Technikstraße")
+    st.image('https://d8wyob5mxqc1u.cloudfront.net/Allgemein/RaimundBauer180pxMagenta.png', caption='Image Caption', use_column_width=False)
+
